@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Aldrich Xiao, PhD student in Economic Analysis &amp; Policy at the Rotman School of Management, University of Toronto.">
+<title>Aldrich Xiao</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Geist:wght@400;500&display=swap">
+<style>
+/* Minimal one-column homepage: white page, near-black text, one pink accent. Deliberately light-only. */
+:root{
+  --bg:#ffffff;
+  --ink:#111111;
+  --muted:#6b6b6b;
+  --pink:#d6336c;
+  --pink-dark:#a61e4d;
+  --f-head:"Cormorant Garamond", Garamond, "Times New Roman", serif;
+  --f-body:"Geist", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.7;margin:0}
+
+main{padding-inline:max(16px,8vw);padding-block:clamp(4rem,18vh,10rem) 4rem}
+main>*{max-width:36rem}
+h1{font-family:var(--f-head);font-weight:500;color:var(--pink);font-size:clamp(2.25rem,6vw,3rem);line-height:1.1;margin:0 0 1.75rem}
+p{margin:0}
+
+a{color:inherit;text-decoration:underline;text-decoration-color:var(--pink);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--pink);text-decoration-thickness:2px}
+a:focus-visible{outline:2px solid var(--pink);outline-offset:3px;border-radius:2px}
+
+.links{display:flex;flex-wrap:wrap;gap:.25rem .75rem;margin-top:2.25rem;font-size:.95rem;font-weight:500}
+.links a{color:var(--pink);text-decoration:none}
+.links a:hover{color:var(--pink-dark);text-decoration:underline}
+.links .soon{color:var(--muted);font-weight:400}
+.links .sep{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Aldrich Xiao</h1>
+  <p>I am Aldrich Xiao, a PhD student in Economic Analysis &amp; Policy at the <a href="https://www.rotman.utoronto.ca/">Rotman School of Management</a>, <a href="https://www.utoronto.ca/">University of Toronto</a>.</p>
+  <p class="links">
+    <!-- After uploading cv.pdf, replace the span below with: <a href="cv.pdf">CV</a> -->
+    <span class="soon">CV (coming soon)</span>
+    <span class="sep" aria-hidden="true">·</span>
+    <a href="https://github.com/aldrichxiao">GitHub</a>
+  </p>
+</main>
+</body>
+</html>
